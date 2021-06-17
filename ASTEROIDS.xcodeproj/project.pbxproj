@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3B83F2624A7C86B00776B65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F2524A7C86B00776B65 /* main.cpp */; };
+		F3B83F2E24A7C87C00776B65 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B83F2D24A7C87C00776B65 /* GLUT.framework */; };
+		F3B83F3024A7C88400776B65 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B83F2F24A7C88400776B65 /* OpenGL.framework */; };
+		F3B83F4424A7C92F00776B65 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3124A7C92E00776B65 /* game.cpp */; };
+		F3B83F4524A7C92F00776B65 /* ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3324A7C92E00776B65 /* ship.cpp */; };
+		F3B83F4624A7C92F00776B65 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3524A7C92E00776B65 /* point.cpp */; };
+		F3B83F4724A7C92F00776B65 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3824A7C92E00776B65 /* velocity.cpp */; };
+		F3B83F4824A7C92F00776B65 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3924A7C92F00776B65 /* uiDraw.cpp */; };
+		F3B83F4924A7C92F00776B65 /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3A24A7C92F00776B65 /* driver.cpp */; };
+		F3B83F4A24A7C92F00776B65 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3B24A7C92F00776B65 /* uiInteract.cpp */; };
+		F3B83F4B24A7C92F00776B65 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F3D24A7C92F00776B65 /* bullet.cpp */; };
+		F3B83F4C24A7C92F00776B65 /* flyingObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F4224A7C92F00776B65 /* flyingObject.cpp */; };
+		F3B83F4D24A7C93000776B65 /* rocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F4324A7C92F00776B65 /* rocks.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +35,27 @@
 
 /* Begin PBXFileReference section */
 		F3B83F2224A7C86B00776B65 /* ASTEROIDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASTEROIDS; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B83F2524A7C86B00776B65 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F3B83F2D24A7C87C00776B65 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F3B83F2F24A7C88400776B65 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F3B83F3124A7C92E00776B65 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		F3B83F3224A7C92E00776B65 /* ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ship.h; sourceTree = "<group>"; };
+		F3B83F3324A7C92E00776B65 /* ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ship.cpp; sourceTree = "<group>"; };
+		F3B83F3424A7C92E00776B65 /* flyingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyingObject.h; sourceTree = "<group>"; };
+		F3B83F3524A7C92E00776B65 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		F3B83F3624A7C92E00776B65 /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		F3B83F3724A7C92E00776B65 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		F3B83F3824A7C92E00776B65 /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		F3B83F3924A7C92F00776B65 /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		F3B83F3A24A7C92F00776B65 /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = "<group>"; };
+		F3B83F3B24A7C92F00776B65 /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		F3B83F3C24A7C92F00776B65 /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		F3B83F3D24A7C92F00776B65 /* bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		F3B83F3E24A7C92F00776B65 /* rocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocks.h; sourceTree = "<group>"; };
+		F3B83F3F24A7C92F00776B65 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		F3B83F4024A7C92F00776B65 /* bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bullet.h; sourceTree = "<group>"; };
+		F3B83F4124A7C92F00776B65 /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		F3B83F4224A7C92F00776B65 /* flyingObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flyingObject.cpp; sourceTree = "<group>"; };
+		F3B83F4324A7C92F00776B65 /* rocks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rocks.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B83F2E24A7C87C00776B65 /* GLUT.framework in Frameworks */,
+				F3B83F3024A7C88400776B65 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +76,7 @@
 			children = (
 				F3B83F2424A7C86B00776B65 /* ASTEROIDS */,
 				F3B83F2324A7C86B00776B65 /* Products */,
+				F3B83F2C24A7C87C00776B65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +91,36 @@
 		F3B83F2424A7C86B00776B65 /* ASTEROIDS */ = {
 			isa = PBXGroup;
 			children = (
-				F3B83F2524A7C86B00776B65 /* main.cpp */,
+				F3B83F3D24A7C92F00776B65 /* bullet.cpp */,
+				F3B83F4024A7C92F00776B65 /* bullet.h */,
+				F3B83F3A24A7C92F00776B65 /* driver.cpp */,
+				F3B83F4224A7C92F00776B65 /* flyingObject.cpp */,
+				F3B83F3424A7C92E00776B65 /* flyingObject.h */,
+				F3B83F3124A7C92E00776B65 /* game.cpp */,
+				F3B83F3F24A7C92F00776B65 /* game.h */,
+				F3B83F3524A7C92E00776B65 /* point.cpp */,
+				F3B83F3724A7C92E00776B65 /* point.h */,
+				F3B83F4324A7C92F00776B65 /* rocks.cpp */,
+				F3B83F3E24A7C92F00776B65 /* rocks.h */,
+				F3B83F3324A7C92E00776B65 /* ship.cpp */,
+				F3B83F3224A7C92E00776B65 /* ship.h */,
+				F3B83F3924A7C92F00776B65 /* uiDraw.cpp */,
+				F3B83F3624A7C92E00776B65 /* uiDraw.h */,
+				F3B83F3B24A7C92F00776B65 /* uiInteract.cpp */,
+				F3B83F4124A7C92F00776B65 /* uiInteract.h */,
+				F3B83F3824A7C92E00776B65 /* velocity.cpp */,
+				F3B83F3C24A7C92F00776B65 /* velocity.h */,
 			);
 			path = ASTEROIDS;
+			sourceTree = "<group>";
+		};
+		F3B83F2C24A7C87C00776B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B83F2F24A7C88400776B65 /* OpenGL.framework */,
+				F3B83F2D24A7C87C00776B65 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B83F2624A7C86B00776B65 /* main.cpp in Sources */,
+				F3B83F4624A7C92F00776B65 /* point.cpp in Sources */,
+				F3B83F4B24A7C92F00776B65 /* bullet.cpp in Sources */,
+				F3B83F4724A7C92F00776B65 /* velocity.cpp in Sources */,
+				F3B83F4924A7C92F00776B65 /* driver.cpp in Sources */,
+				F3B83F4D24A7C93000776B65 /* rocks.cpp in Sources */,
+				F3B83F4424A7C92F00776B65 /* game.cpp in Sources */,
+				F3B83F4524A7C92F00776B65 /* ship.cpp in Sources */,
+				F3B83F4C24A7C92F00776B65 /* flyingObject.cpp in Sources */,
+				F3B83F4824A7C92F00776B65 /* uiDraw.cpp in Sources */,
+				F3B83F4A24A7C92F00776B65 /* uiInteract.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
